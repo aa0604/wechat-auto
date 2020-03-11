@@ -25,6 +25,24 @@ let firstText = '今日新闻推荐' // 推送前说的话，留空则不多说
 
 let dayTime = 8; // 设置每天几点发送，0则表示关闭或不使用此设置
 
-let dayLastSend = null; // 上次发送时间
-
 let timing = 10; // 每隔多少分钟就触发一次？
+
+## 服务端需要返回的数据
+```json
+[
+    [
+        'description' => '半个月前，AI蓝媒汇接到一通陌生人电话，对方称自己是某电商平台的销售员，询问能否加微信，“我会在微信上经常分享商品优惠信息，您感兴趣就可以直接下单购买，不会过多打扰您。',
+        'thumbnailUrl' => 'http://pics2.baidu.com/feed/29381f30e924b899928c0bc0280049930b7bf6a6.jpeg?token=c388a0a8b52ec7cbee3cfdbacf9a8cda&s=FCAA09D716724792569DF8BF0300D000',
+        'title' => '私域卖货：生于二月，死于三月',
+        'url' => 'http://baijiahao.baidu.com/s?id=1660640278131497023',
+        'msgType' => 'url',
+    ],
+    [
+        'description' => '半个月前，AI蓝媒汇接到一通陌生人电话，对方称自己是某电商平台的销售员，询问能否加微信，“我会在微信上经常分享商品优惠信息，您感兴趣就可以直接下单购买，不会过多打扰您。',
+        'thumbnailUrl' => 'http://pics2.baidu.com/feed/29381f30e924b899928c0bc0280049930b7bf6a6.jpeg?token=c388a0a8b52ec7cbee3cfdbacf9a8cda&s=FCAA09D716724792569DF8BF0300D000',
+        'title' => '私域卖货：生于二月，死于三月',
+        'url' => 'http://baijiahao.baidu.com/s?id=1660640278131497023',
+        'msgType' => 'url',
+    ],
+]
+```
