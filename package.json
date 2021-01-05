@@ -6,7 +6,7 @@
   "author": "aa0604 <aa0604@sina.cn>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "fs": "^0.0.1-security",
     "js-md5": "^0.7.3",
     "qrcode-terminal": "^0.12.0",
